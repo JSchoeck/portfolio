@@ -14,7 +14,7 @@ Currently working on documenting and presenting past projects.
 ```
 
 ## Content Overview
-1. Skills
+1. Skills and Domain Knowledge
 2. Work Data Projects
 3. Kaggle Competitions
 4. Private Data Projects
