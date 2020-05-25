@@ -4,7 +4,9 @@
 Currently working on documenting and presenting past projects.
 
 ## To Do
+- Finish skill section
 - Update projects for public presentation (remove internal project data)
+- Add personal projects
 - Finalize project presentations
 - Add links
 ```
@@ -12,6 +14,31 @@ Currently working on documenting and presenting past projects.
 ```
 
 ## Content Overview
+1. Skills
+2. Work Data Projects
+3. Kaggle Competitions
+4. Private Data Projects
+
+### Skills
+- Problem analysis
+- Communication
+- International experience
+- Presentation and sharing of insights
+- Interdisciplinary mindset
+- Data analysis
+- Data cleaning and wrangling
+- Regression models for classification and quantitative prediction
+- Geodemographic segmentation
+- Machine learning models for regression and classification
+- Basic neural network techniques
+
+#### Domain Knowledge
+- Semiconductor design, production and testing
+- Automotive product development and quality assurance
+- Electronics production and testing
+- Data analysis of serial production testers in automotive and electronics production lines
+- Research data aggregation, analysis and publishing
+- NGO structures and membership analysis
 
 ### Work Data Projects
 #### SPEA
