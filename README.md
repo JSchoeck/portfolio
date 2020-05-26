@@ -3,17 +3,12 @@
 
 Currently working on documenting and presenting past projects.
 
-## To Do
-- Finish skill section
-- Update projects for public presentation (remove internal project data)
-- Add personal projects
-- Finalize project presentations
-
 ## Content Overview
 1. Skills and Domain Knowledge
 2. Work Data Projects
 3. Kaggle Competitions
 4. Private Data Projects
+5. To Do
 
 ### 1. Skills
 - Problem analysis
@@ -54,3 +49,7 @@ Classic data analysis / machine learning entry classification data set to predic
 
 ### 4. Private Data Projects
 #### tbd
+
+### 5. To Do
+- Add personal projects
+- Finalize project presentations
