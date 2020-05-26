@@ -18,8 +18,7 @@ from tensorflow.keras.layers import Dense
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
-# dataset = pd.read_csv('example.csv', sep=';', decimal=',')
-dataset = pd.read_csv('EOL_all_2016_combined.csv', sep=';', decimal=',')
+dataset = pd.read_csv('example.csv', sep=';', decimal=',')
 
 '''
 Dependant Variable:
