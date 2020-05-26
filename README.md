@@ -21,7 +21,7 @@ Currently working on documenting and presenting past projects.
 - Regression models for classification and quantitative prediction
 - Geodemographic segmentation
 - Machine learning models for regression and classification
-- Basic neural network techniques
+- Neural network techniques for estimation and binary- and multi-classification of structured and unstructured data
 
 #### Domain Knowledge
 - Semiconductor design, production and testing
