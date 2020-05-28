@@ -32,7 +32,7 @@ Currently working on documenting and presenting past projects.
 
 ### 2. Work Data Projects
 #### [SPEA_csv_import](https://github.com/JSchoeck/portfolio/tree/master/SPEA_csv_import)
-A tool to deal with data from an end of line tester in a production environment for electronics (PCBA production). Imports large amount of original csv data files, stiches them together, selects relevant features, handles missing and incomplete data and tests, adds features and creates different plots with insights into tests results. 
+A tool to deal with data from an end of line tester in a production environment for electronics (PCBA production). Imports large amount of original csv data files, stiches them together, selects relevant features, handles missing and incomplete data and tests, adds features and creates different plots with insights into tests results. Compresses data to store whole dataset in memory.
 
 #### [EOL_BMG](https://github.com/JSchoeck/portfolio/tree/master/EOL_BMG)
 Analysis and classification of serial production end-of-line tester data using a kNN-classifier and an ANN on the error code as a OneHotEncoded multi-class dependant variable. The dataset consists of over 1 M observations with 30 selected features. Model quality was quantified using appropriate accuracy measurements for each model.
@@ -44,7 +44,7 @@ Text analysis challenge to find the parts of a tweet that have been associated w
 (TO DO: Add Kaggle submission page)
 
 #### [Titanic](https://github.com/JSchoeck/portfolio/tree/master/Kaggle/Titanic)
-Classic data analysis / machine learning entry classification data set to predict survivors of the Titanic accident. Analyzed the data, performed feature selection and engineering. Applied different classification algorithms and compared their performance.
+Classic data analysis / machine learning entry classification data set to predict survivors of the Titanic accident. Analyzed the data, performed feature selection and engineering. Applied different classification algorithms and compared their performance with hyperparameter optimization.
 
 ### 4. Private Data Projects
 #### tbd
