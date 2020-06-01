@@ -41,10 +41,11 @@ The results yield insight into reasons of failure and help increase the yield of
 ### 3. Kaggle Competitions
 #### [Tweet Sentiment Extraction](https://github.com/JSchoeck/portfolio/tree/master/Kaggle/Tweet%20Sentiment%20Extraction)
 Text analysis challenge to find the parts of a tweet that have been associated with positive, neutral or negative sentiments. Used bag of word method to feed into kNN classification algorithm. Also played with the data to predict which sentiment would be assigned based on word count of the tweet or of the selected part of it and compared it to a random selection model.
-(TO DO: Add Kaggle submission page)
+Kaggle submission page: https://www.kaggle.com/jschoeck/competitions
 
 #### [Titanic](https://github.com/JSchoeck/portfolio/tree/master/Kaggle/Titanic)
 Classic data analysis / machine learning entry classification data set to predict survivors of the Titanic accident. Analyzed the data, performed feature selection and engineering. Applied different classification algorithms and compared their performance with hyperparameter optimization.
+Kaggle submission page: https://www.kaggle.com/jschoeck/competitions
 
 ### 4. Private Data Projects
 #### tbd
