@@ -28,8 +28,10 @@ Currently working on documenting and presenting past projects.
 - Numpy
 - Matplotlib / Seaborne
 - SciKit-Learn
+- NLTK
 - Tensorflow / Keras
-- Jupyter notebook / Google Colab
+- Google Colab / AutoML
+- Jupyter notebook
 - Spyder IDE
 
 #### Domain Knowledge
