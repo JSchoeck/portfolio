@@ -22,6 +22,16 @@ Currently working on documenting and presenting past projects.
 - Machine learning models for regression and classification
 - Neural network techniques for estimation and binary- and multi-classification of structured and unstructured data
 
+#### Data Science Tools
+- Python
+- Pandas
+- Numpy
+- Matplotlib / Seaborne
+- SciKit-Learn
+- Tensorflow / Keras
+- Jupyter notebook / Google Colab
+- Spyder IDE
+
 #### Domain Knowledge
 - Semiconductor design, production and testing
 - Automotive product development and quality assurance
