@@ -1,8 +1,5 @@
 # Johannes Schöck
 # Data Science and Machine Learning Portfolio
-
-Currently working on documenting and presenting past projects.
-
 ## Content Overview
 1. Skills, Tools and Domain Knowledge
 2. Work Data Projects
