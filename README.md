@@ -4,7 +4,7 @@
 Currently working on documenting and presenting past projects.
 
 ## Content Overview
-1. Skills and Domain Knowledge
+1. Skills, Tools and Domain Knowledge
 2. Work Data Projects
 3. Kaggle Competitions
 4. Private Data Projects
@@ -60,4 +60,5 @@ Classic data analysis / machine learning entry classification data set to predic
 Kaggle submission page: https://www.kaggle.com/jschoeck/competitions
 
 ### 4. Private Data Projects
-#### tbd
+#### LoL Match Prediction (planned)
+#### Ultimate Frisbee Twitter Sentiment Tracker(planned)
