@@ -43,23 +43,23 @@
 ### 2. Work Data Projects
 #### [SPEA_csv_import](https://github.com/JSchoeck/portfolio/tree/master/SPEA_csv_import)
 A tool to deal with data from an end of line tester in a production environment for electronics (PCBA production). Imports large amount of original csv data files, stiches them together, selects relevant features, handles missing and incomplete data and tests, adds features and creates different plots with insights into tests results. Compresses data to store whole dataset in memory.
-Tools: Python, Pandas, numpy, matplotlib
+- Tools: Python, Pandas, numpy, matplotlib
 
 #### [EOL_BMG](https://github.com/JSchoeck/portfolio/tree/master/EOL_BMG)
 Analysis and classification of serial production end-of-line tester data using a kNN-classifier and an ANN on the error code as a OneHotEncoded multi-class dependant variable. The dataset consists of over 1 M observations with 30 selected features. Model quality was quantified using appropriate accuracy measurements for each model.
 The results yield insight into reasons of failure and help increase the yield of the production line.
-Tools: Python, Pandas, numpy, matplotlib, scikit-learn, Keras, Tensorflow
+- Tools: Python, Pandas, numpy, matplotlib, scikit-learn, Keras, Tensorflow
 
 ### 3. Kaggle Competitions
 #### [Tweet Sentiment Extraction](https://github.com/JSchoeck/portfolio/tree/master/Kaggle/Tweet%20Sentiment%20Extraction)
 Text analysis challenge to find the parts of a tweet that have been associated with positive, neutral or negative sentiments. Used bag of word method to feed into kNN classification algorithm. Also played with the data to predict which sentiment would be assigned based on word count of the tweet or of the selected part of it and compared it to a random selection model.
 Kaggle submission page: https://www.kaggle.com/jschoeck/competitions
-Tools: Python, Pandas, NLTK, scikit-learn
+- Tools: Python, Pandas, NLTK, scikit-learn
 
 #### [Titanic](https://github.com/JSchoeck/portfolio/tree/master/Kaggle/Titanic)
 Classic data analysis / machine learning entry classification data set to predict survivors of the Titanic accident. Analyzed the data, performed feature selection and engineering. Applied different classification algorithms and compared their performance with hyperparameter optimization.
 Kaggle submission page: https://www.kaggle.com/jschoeck/competitions
-Tools: Python, Pandas, numpy, matplotlib, scikit-learn
+- Tools: Python, Pandas, numpy, matplotlib, scikit-learn
 
 ### 4. Private Data Projects
 #### LoL Match Prediction (planned)
@@ -68,4 +68,4 @@ Tools: Python, Pandas, numpy, matplotlib, scikit-learn
 #### [German Ultimate Frisbee Clubs Count per State](https://github.com/JSchoeck/portfolio/blob/master/DiscSports/German%20Ultimate%20Frisbee%20Clubs%20Count%20per%20State.ipynb)
 A basic web-scraping project using BeautifulSoup to get the number of Ultimate Frisbee clubs in each state federation. The result is displayed on a map in Tableau.
 [Tableau map](https://public.tableau.com/profile/johannes.sch.ck#!/vizhome/DFV_Vereine_nach_Bundesland/Dashboard1)
-Tools: Python, Pandas, BeautifulSoup, Tableau
+- Tools: Python, Pandas, BeautifulSoup, Tableau
