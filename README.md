@@ -58,4 +58,8 @@ Kaggle submission page: https://www.kaggle.com/jschoeck/competitions
 
 ### 4. Private Data Projects
 #### LoL Match Prediction (planned)
-#### Ultimate Frisbee Twitter Sentiment Tracker(planned)
+#### Ultimate Frisbee Twitter Sentiment Tracker (in work)
+
+#### [German Ultimate Frisbee Clubs Count per State](https://github.com/JSchoeck/portfolio/blob/master/DiscSports/German%20Ultimate%20Frisbee%20Clubs%20Count%20per%20State.ipynb)
+A basic web-scraping project using BeautifulSoup to get the number of Ultimate Frisbee clubs in each state federation. The result is displayed on a map in Tableau.
+[Tableau map](https://public.tableau.com/profile/johannes.sch.ck#!/vizhome/DFV_Vereine_nach_Bundesland/Dashboard1)
