@@ -63,7 +63,10 @@ Kaggle submission page: https://www.kaggle.com/jschoeck/competitions
 
 ### 4. Private Data Projects
 #### LoL Match Prediction (planned)
-#### Disc Sports Twitter Sentiment Tracker (in work)
+
+#### [Disc Sports Twitter Sentiment Tracker](https://github.com/JSchoeck/portfolio/tree/master/DiscSports/Disc_Sports_Twitter_Sentiment_Tracker)
+Tracking of all tweets containing the word 'frisbee' on Twitter and running a sentiment analysis on it. The results are visualized and saved in a csv file. Actually running 'in production' and updating the dataset and plots daily. The [latest plots](https://www.dropbox.com/sh/dmhv503ni3q0sb0/AABsV2t47-KIwS74RsZ3HRLOa?dl=0) are available online.
+- Tools: Python, Pandas, Twython, NLTK, VADER, matplotlib
 
 #### [German Ultimate Frisbee Clubs Count per State](https://github.com/JSchoeck/portfolio/blob/master/DiscSports/German%20Ultimate%20Frisbee%20Clubs%20Count%20per%20State.ipynb)
 A basic web-scraping project using BeautifulSoup to get the number of Ultimate Frisbee clubs in each state federation. The result is displayed on a map in Tableau.
