@@ -1,3 +1,2 @@
 # To Do
-- Add personal projects
-- Finalize project presentations
+- Edit SPEA project so it can be shown online
