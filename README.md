@@ -41,6 +41,15 @@
 - NGO structures and membership analysis
 
 ### 2. Work Data Projects
+#### [CVD_prediction](https://github.com/JSchoeck/portfolio/tree/master/CVD_prediction)
+Developed a model to predict oxide layer thickness in a TEOS CVD process. Training data based on a design of experiment (DOE) concept was used and led to a prediction quality of 98%. Incorporating a physics-based model to include temperature variation, without T being available from the training data, made the project especially powerfull. The ANN put out 49 measurement points on the wafer, allowing to precisely simulate real CVD tools.
+Creating a simple GUI with Tkinter demonstrated the ability to roll out the prediction tool to end-users.
+- Tools: Python, Keras/Tensorflow, Pandas, numpy, matplotlib, Tkinter
+
+Analysis and classification of serial production end-of-line tester data using a kNN-classifier and an ANN on the error code as a OneHotEncoded multi-class dependant variable. The dataset consists of over 1 M observations with 30 selected features. Model quality was quantified using appropriate accuracy measurements for each model.
+The results yield insight into reasons of failure and help increase the yield of the production line.
+- Tools: Python, Pandas, numpy, matplotlib, scikit-learn, Keras/Tensorflow
+
 #### [SPEA_csv_import](https://github.com/JSchoeck/portfolio/tree/master/SPEA_csv_import)
 A tool to deal with data from an end of line tester in a production environment for electronics (PCBA production). Imports large amount of original csv data files, stiches them together, selects relevant features, handles missing and incomplete data and tests, adds features and creates different plots with insights into tests results. Compresses data to store whole dataset in memory.
 - Tools: Python, Pandas, numpy, matplotlib
@@ -48,7 +57,8 @@ A tool to deal with data from an end of line tester in a production environment 
 #### [EOL_BMG](https://github.com/JSchoeck/portfolio/tree/master/EOL_BMG)
 Analysis and classification of serial production end-of-line tester data using a kNN-classifier and an ANN on the error code as a OneHotEncoded multi-class dependant variable. The dataset consists of over 1 M observations with 30 selected features. Model quality was quantified using appropriate accuracy measurements for each model.
 The results yield insight into reasons of failure and help increase the yield of the production line.
-- Tools: Python, Pandas, numpy, matplotlib, scikit-learn, Keras, Tensorflow
+- Tools: Python, Pandas, numpy, matplotlib, scikit-learn, Keras/Tensorflow
+
 
 ### 3. Kaggle Competitions
 #### [Tweet Sentiment Extraction](https://github.com/JSchoeck/portfolio/tree/master/Kaggle/Tweet%20Sentiment%20Extraction)
