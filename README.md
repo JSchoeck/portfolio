@@ -46,6 +46,7 @@ Developed a model to predict oxide layer thickness in a TEOS CVD process. Traini
 Creating a simple GUI with Tkinter demonstrated the ability to roll out the prediction tool to end-users.
 - Tools: Python, Keras/Tensorflow, Pandas, numpy, matplotlib, Tkinter
 
+#### [EOL_BMG](https://github.com/JSchoeck/portfolio/tree/master/EOL_BMG)
 Analysis and classification of serial production end-of-line tester data using a kNN-classifier and an ANN on the error code as a OneHotEncoded multi-class dependant variable. The dataset consists of over 1 M observations with 30 selected features. Model quality was quantified using appropriate accuracy measurements for each model.
 The results yield insight into reasons of failure and help increase the yield of the production line.
 - Tools: Python, Pandas, numpy, matplotlib, scikit-learn, Keras/Tensorflow
@@ -54,15 +55,9 @@ The results yield insight into reasons of failure and help increase the yield of
 A tool to deal with data from an end of line tester in a production environment for electronics (PCBA production). Imports large amount of original csv data files, stiches them together, selects relevant features, handles missing and incomplete data and tests, adds features and creates different plots with insights into tests results. Compresses data to store whole dataset in memory.
 - Tools: Python, Pandas, numpy, matplotlib
 
-#### [EOL_BMG](https://github.com/JSchoeck/portfolio/tree/master/EOL_BMG)
-Analysis and classification of serial production end-of-line tester data using a kNN-classifier and an ANN on the error code as a OneHotEncoded multi-class dependant variable. The dataset consists of over 1 M observations with 30 selected features. Model quality was quantified using appropriate accuracy measurements for each model.
-The results yield insight into reasons of failure and help increase the yield of the production line.
-- Tools: Python, Pandas, numpy, matplotlib, scikit-learn, Keras/Tensorflow
-
-
-### 3. Kaggle Competitions
+### 3. Competitions
 #### [Tweet Sentiment Extraction](https://github.com/JSchoeck/portfolio/tree/master/Kaggle/Tweet%20Sentiment%20Extraction)
-Text analysis challenge to find the parts of a tweet that have been associated with positive, neutral or negative sentiments. Used bag of word method to feed into kNN classification algorithm. Also played with the data to predict which sentiment would be assigned based on word count of the tweet or of the selected part of it and compared it to a random selection model.
+Text analysis challenge to find the parts of a tweet that have been associated with positive, neutral or negative sentiments. Used bag of word method to feed into kNN classification algorithm. Also played with the data to predict which sentiment would be assigned based on word count of the tweet or of the selected part of it and compared it to a random selection model. As this was my first serious attempt at NLP, my goal was to build a functional ML framework, not to find an optimized model.
 Kaggle submission page: https://www.kaggle.com/jschoeck/competitions
 - Tools: Python, Pandas, NLTK, scikit-learn
 
@@ -77,8 +72,6 @@ Tracking of all tweets containing the word 'frisbee' on Twitter and running a se
 - Tools: Python, Pandas, Twython, NLTK, VADER, matplotlib
 
 #### [German Ultimate Frisbee Clubs Count per State](https://github.com/JSchoeck/portfolio/blob/master/DiscSports/German%20Ultimate%20Frisbee%20Clubs%20Count%20per%20State.ipynb)
-A basic web-scraping project using BeautifulSoup to get the number of Ultimate Frisbee clubs in each state federation. The result is displayed on a map in Tableau.
+A small web-scraping project using BeautifulSoup to get the number of Ultimate Frisbee clubs in each state federation. The result is displayed on a map in Tableau.
 [Tableau map](https://public.tableau.com/profile/johannes.sch.ck#!/vizhome/DFV_Vereine_nach_Bundesland/Dashboard1)
 - Tools: Python, Pandas, BeautifulSoup, Tableau
-
-#### LoL Match Prediction (planned)
