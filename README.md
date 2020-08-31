@@ -1,5 +1,15 @@
 # Johannes Schöck
 # Data Science and Machine Learning Portfolio
+
+## Motivation
+After spending a few years working in different fields, I found the type of work where my motivation and passion always was at its max: *working with data*.
+
+My goal is to make the career switch some time between spring 2020 and spring 2021.
+
+Since spring 2019 I am going after this goal by enhancing and completing my skillset as a data scientist, both in theory and practical work. This repository showcases most of my work as far as possible due to trade secrets. It is a growing, living collection with content from different periods of my self-learning journey, so the quality and aptness of how I use tools can change between projects.
+
+If you like my work or have any questions, please contact me at johannes(at)schoeck(dot)org or find me on [LinkedIn](https://www.linkedin.com/in/johannes-sch%C3%B6ck-a87547195/).
+
 ## Content Overview
 1. Skills, Tools and Domain Knowledge
 2. Work Data Projects
