@@ -5,6 +5,7 @@
 2. Work Data Projects
 3. Kaggle Competitions
 4. Private Data Projects
+5. Case Studies
 
 ### 1. Skills
 - Problem analysis
@@ -79,3 +80,4 @@ A small web-scraping project using BeautifulSoup to get the number of Ultimate F
 ### 5. Case Studies
 #### [Human Resources - Employee Attrition](https://github.com/JSchoeck/portfolio/blob/master/Demos/Case%20Study%20Human%20Resources/Case%20Study%20Human%20Resources.ipynb)
 **CURRENTLY IN WORK** (as of 1.9.20)
+- Tools: Python, Pandas, matplotlib, seaborn
