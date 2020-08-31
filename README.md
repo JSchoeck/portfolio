@@ -75,3 +75,7 @@ Tracking of all tweets containing the word 'frisbee' on Twitter and running a se
 A small web-scraping project using BeautifulSoup to get the number of Ultimate Frisbee clubs in each state federation. The result is displayed on a map in Tableau.
 [Tableau map](https://public.tableau.com/profile/johannes.sch.ck#!/vizhome/DFV_Vereine_nach_Bundesland/Dashboard1)
 - Tools: Python, Pandas, BeautifulSoup, Tableau
+
+### 5. Case Studies
+#### [Human Resources - Employee Attrition](https://github.com/JSchoeck/portfolio/blob/master/Demos/Case%20Study%20Human%20Resources/Case%20Study%20Human%20Resources.ipynb)
+**CURRENTLY IN WORK** (as of 1.9.20)
