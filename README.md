@@ -89,5 +89,5 @@ A small web-scraping project using BeautifulSoup to get the number of Ultimate F
 
 ### 5. Case Studies
 #### [Human Resources - Employee Attrition](https://github.com/JSchoeck/portfolio/blob/master/Demos/Case%20Study%20Human%20Resources/Case%20Study%20Human%20Resources.ipynb)
-**CURRENTLY IN WORK** (as of 1.9.20)
-- Tools: Python, Pandas, matplotlib, seaborn
+Analyzed a realistic HR data set regarding employee attrition. Asked and tried to answer questions like who leaves, why do they leave and what prevents employees from leaving? Created different models to predict employee attrition: Logistic Regression, Random Forrest, dense ANNs. I added F1 score as a custom metric to the ANN model and introduced early stopping using the metrics Accuracy and F1 score.
+- Tools: Python, Pandas, Numpy, matplotlib, seaborn, Scikit-learn, Keras
