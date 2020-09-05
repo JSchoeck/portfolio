@@ -13,9 +13,9 @@ If you like my work or have any questions, please contact me at johannes(at)scho
 ## Content Overview
 1. Skills, Tools and Domain Knowledge
 2. Work Data Projects
-3. Kaggle Competitions
-4. Private Data Projects
-5. Case Studies
+3. Case Studies
+4. Private Data Projects and Demos
+5. Kaggle Competitions
 
 ### 1. Skills
 - Problem analysis
@@ -29,6 +29,7 @@ If you like my work or have any questions, please contact me at johannes(at)scho
 - Geodemographic segmentation
 - Machine learning models for regression and classification
 - Neural network techniques for estimation and binary- and multi-classification of structured and unstructured data
+- Simple generative adversial networks (GAN)
 
 #### Data Science Tools
 - Python
@@ -66,18 +67,16 @@ The results yield insight into reasons of failure and help increase the yield of
 A tool to deal with data from an end of line tester in a production environment for electronics (PCBA production). Imports large amount of original csv data files, stiches them together, selects relevant features, handles missing and incomplete data and tests, adds features and creates different plots with insights into tests results. Compresses data to store whole dataset in memory.
 - Tools: Python, Pandas, numpy, matplotlib
 
-### 3. Competitions
-#### [Tweet Sentiment Extraction](https://github.com/JSchoeck/portfolio/tree/master/Kaggle/Tweet%20Sentiment%20Extraction)
-Text analysis challenge to find the parts of a tweet that have been associated with positive, neutral or negative sentiments. Used bag of word method to feed into kNN classification algorithm. Also played with the data to predict which sentiment would be assigned based on word count of the tweet or of the selected part of it and compared it to a random selection model. As this was my first serious attempt at NLP, my goal was to build a functional ML framework, not to find an optimized model.
-Kaggle submission page: https://www.kaggle.com/jschoeck/competitions
-- Tools: Python, Pandas, NLTK, scikit-learn
+### 3. Case Studies
+#### [Human Resources - Employee Attrition](https://github.com/JSchoeck/portfolio/blob/master/Demos/Case%20Study%20Human%20Resources/Case%20Study%20Human%20Resources.ipynb)
+Analyzed a realistic HR data set regarding employee attrition. Asked and tried to answer questions like who leaves, why do they leave and what prevents employees from leaving? Created different models to predict employee attrition: Logistic Regression, Random Forrest, dense ANNs. I added F1 score as a custom metric to the ANN model and introduced early stopping using the metrics Accuracy and F1 score.
+- Tools: Python, Pandas, Numpy, matplotlib, Seaborn, Scikit-learn, Keras
 
-#### [Titanic](https://github.com/JSchoeck/portfolio/tree/master/Kaggle/Titanic)
-Classic data analysis / machine learning entry classification data set to predict survivors of the Titanic accident. Analyzed the data, performed feature selection and engineering. Applied different classification algorithms and compared their performance with hyperparameter optimization.
-Kaggle submission page: https://www.kaggle.com/jschoeck/competitions
-- Tools: Python, Pandas, numpy, matplotlib, scikit-learn
+### 4. Private Data Projects and Demos
+#### [GAN_1D_Keras](https://github.com/JSchoeck/portfolio/blob/master/Demos/GAN_1D/GAN_1D_Keras.ipynb)
+Created a generative adversial network that learns to output increasingly indistinguishable data points from an original mathematical function. Training of the generator model happens via classification by a discriminator model, which adjusts the generator model's weights in a combined logical GAN model. Progress of the training can be watched by plots of both real and generated data points, as well as the classification accuracy of the discriminator.
+- Tools: Python, Pandas, Numpy, Keras, matplotlib
 
-### 4. Private Data Projects
 #### [Disc Sports Twitter Sentiment Tracker](https://github.com/JSchoeck/portfolio/tree/master/DiscSports/Disc_Sports_Twitter_Sentiment_Tracker)
 Tracking of all tweets containing the word 'frisbee' on Twitter and running a sentiment analysis on it. The results are visualized and saved in a csv file. Actually running 'in production' and updating the dataset and plots daily. The [latest plots](https://www.dropbox.com/sh/dmhv503ni3q0sb0/AABsV2t47-KIwS74RsZ3HRLOa?dl=0) are available online, including an [interactive plot](https://www.dropbox.com/s/m0scddrx0aaxk41/Daily_number_of_%27frisbee%27_tweets_per_sentiment_line_latest.html?dl=0) using Bokeh (not viewable in Dropbox).
 - Tools: Python, Pandas, Twython, NLTK, VADER, matplotlib
@@ -87,7 +86,13 @@ A small web-scraping project using BeautifulSoup to get the number of Ultimate F
 [Tableau map](https://public.tableau.com/profile/johannes.sch.ck#!/vizhome/DFV_Vereine_nach_Bundesland/Dashboard1)
 - Tools: Python, Pandas, BeautifulSoup, Tableau
 
-### 5. Case Studies
-#### [Human Resources - Employee Attrition](https://github.com/JSchoeck/portfolio/blob/master/Demos/Case%20Study%20Human%20Resources/Case%20Study%20Human%20Resources.ipynb)
-Analyzed a realistic HR data set regarding employee attrition. Asked and tried to answer questions like who leaves, why do they leave and what prevents employees from leaving? Created different models to predict employee attrition: Logistic Regression, Random Forrest, dense ANNs. I added F1 score as a custom metric to the ANN model and introduced early stopping using the metrics Accuracy and F1 score.
-- Tools: Python, Pandas, Numpy, matplotlib, seaborn, Scikit-learn, Keras
+### 5. Competitions
+#### [Tweet Sentiment Extraction](https://github.com/JSchoeck/portfolio/tree/master/Kaggle/Tweet%20Sentiment%20Extraction)
+Text analysis challenge to find the parts of a tweet that have been associated with positive, neutral or negative sentiments. Used bag of word method to feed into kNN classification algorithm. Also played with the data to predict which sentiment would be assigned based on word count of the tweet or of the selected part of it and compared it to a random selection model. As this was my first serious attempt at NLP, my goal was to build a functional ML framework, not to find an optimized model.
+Kaggle submission page: https://www.kaggle.com/jschoeck/competitions
+- Tools: Python, Pandas, NLTK, scikit-learn
+
+#### [Titanic](https://github.com/JSchoeck/portfolio/tree/master/Kaggle/Titanic)
+Classic data analysis / machine learning entry classification data set to predict survivors of the Titanic accident. Analyzed the data, performed feature selection and engineering. Applied different classification algorithms and compared their performance with hyperparameter optimization.
+Kaggle submission page: https://www.kaggle.com/jschoeck/competitions
+- Tools: Python, Pandas, numpy, matplotlib, scikit-learn
