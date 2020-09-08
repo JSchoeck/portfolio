@@ -73,7 +73,7 @@ Analyzed a realistic HR data set regarding employee attrition. Asked and tried t
 - Tools: Python, Pandas, Numpy, matplotlib, Seaborn, Scikit-learn, Keras
 
 ### 4. Private Data Projects and Demos
-#### [GAN_1D_Keras](https://github.com/JSchoeck/portfolio/blob/master/Demos/GAN_1D_2D/GAN_1D_Keras.ipynb)
+#### [GAN_1D_Keras](https://github.com/JSchoeck/portfolio/blob/master/Demos/GAN_1D_2D/GAN_1D_Keras.ipynb) and [GAN_2D_Keras](https://github.com/JSchoeck/portfolio/blob/master/Demos/GAN_1D_2D/GAN_2D_Keras.ipynb)
 Created a generative adversial network that learns to output increasingly indistinguishable data points from an original mathematical function. Training of the generator model happens via classification by a discriminator model, which adjusts the generator model's weights in a combined logical GAN model. Progress of the training can be watched by plots of both real and generated data points, as well as the classification accuracy of the discriminator.
 Extended the model by an additional dimension as a proof of concept that any number of feature dimensionalities can be generated. Work is shown in [GAN_2D_Keras](https://github.com/JSchoeck/portfolio/blob/master/Demos/GAN_1D_2D/GAN_2D_Keras.ipynb)
 - Tools: Python, Pandas, Numpy, Keras, matplotlib
