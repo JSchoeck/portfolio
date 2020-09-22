@@ -11,7 +11,7 @@ Since spring 2019 I am going after this goal by enhancing and completing my skil
 If you like my work or have any questions, please contact me at johannes(at)schoeck(dot)org or find me on [LinkedIn](https://www.linkedin.com/in/johannes-sch%C3%B6ck-a87547195/).
 
 ## Content Overview
-1. [Personal Skills and Domain Knowledge](#1-skills)
+1. [Personal Skills and Domain Knowledge](#1-personal-skills)
 2. [Data Science Methods and Tools](#2-data-science-skills)
 3. [Work Data Projects](#3-work-data-projects)
 4. [Case Studies](#4-case-studies)
