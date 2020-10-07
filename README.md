@@ -20,9 +20,9 @@ If you like my work or have any questions, please contact me at johannes(at)scho
 
 ### 1. Personal Skills
 #### 1.1 Domain Knowledge
-- Semiconductor design, production and testing
-- Automotive product development and quality assurance
 - Electronics production and testing
+- Semiconductor design, production processes and testing
+- Automotive HW/SW development and quality assurance
 - Data analysis of serial production testers in automotive and electronics production lines
 - Research data aggregation, analysis and publishing
 - NGO structures and membership analysis
@@ -30,25 +30,21 @@ If you like my work or have any questions, please contact me at johannes(at)scho
 #### 1.2 Soft Skills
 - Problem analysis
 - Communication
-- International experience
+- International project and cultural experience
 - Presentation and sharing of insights
 - Interdisciplinary mindset
 - Data analysis
-- Data cleaning and wrangling
-- Regression models for classification and quantitative prediction
-- Geodemographic segmentation
-- Machine learning models for regression and classification
-- Neural network techniques for estimation and binary- and multi-classification of structured and unstructured data
-- Simple generative adversial networks (GAN)
+- Data cleaning and quality
 
 ### 2. Data Science Skills
 #### 2.1 Methods and Algorithms
 - Regression (Linear, Polynomial, ANN)
-- Classification (KNN, RandomForrest, ANN)
+- Binary and multiple Classification (KNN, RandomForrest, ANN)
 - Clustering (K-Means)
 - Dimensionality Reduction (PCA, Autoencoder)
-- GAN
+- Generative adversial networks (GAN)
 - Sentiment Analysis
+- Geodemographic segmentation
 
 #### 2.2 Tools
 - Python
@@ -60,13 +56,13 @@ If you like my work or have any questions, please contact me at johannes(at)scho
 - NLTK
 - BeautifulSoup
 - Google Colab and AutoML
-- Jupyter notebook / Spyder IDE
+- Jupyter notebook / Spyder IDE / Visual Studio
 
 ### 3. Work Data Projects
-#### 3.1 [CVD_prediction](https://github.com/JSchoeck/portfolio/tree/master/CVD_prediction)
-Developed a model to predict oxide layer thickness in a TEOS CVD process. Training data based on a design of experiment (DOE) concept was used and led to a prediction quality of 98%. Incorporating a physics-based model to include temperature variation, without T being available from the training data, made the project especially powerfull. The ANN put out 49 measurement points on the wafer, allowing to precisely simulate real CVD tools.
+#### 3.1 [CVD_prediction](https://github.com/JSchoeck/portfolio/blob/master/CVD_prediction/CVD_model_thickness.ipynb)
+Developed a model to predict oxide layer thickness in a TEOS CVD process as a virtual measurement experiment. Training data based on a design of experiment (DOE) concept was used and led to a prediction quality of 98%. Incorporating a physics-based model to include temperature variation, without T being available from the training data, enhanced the model significantly. The ANN put out 49 measurement points on the wafer, allowing to precisely simulate real CVD tools.
 Creating a simple GUI with Tkinter demonstrated the ability to roll out the prediction tool to end-users.
-- Methods: Regression (ANN)
+- Methods: Regression (ANN), Virtual Measurement, GUI
 - Tools: Python, Keras/Tensorflow, Pandas, numpy, matplotlib, Tkinter
 
 #### 3.2 [EOL_BMG](https://github.com/JSchoeck/portfolio/tree/master/EOL_BMG)
@@ -76,13 +72,13 @@ The results yield insight into reasons of failure and help increase the yield of
 - Tools: Python, Pandas, numpy, matplotlib, scikit-learn, Keras/Tensorflow
 
 #### 3.3 [SPEA_csv_import](https://github.com/JSchoeck/portfolio/tree/master/SPEA_csv_import)
-A tool to deal with data from an end of line tester in a production environment for electronics (PCBA production). Imports large amount of original csv data files, stiches them together, selects relevant features, handles missing and incomplete data and tests, adds features and creates different plots with insights into tests results. Compresses data to store whole dataset in memory.
-- Methods: Data import, analysis, wrangling, cleaning and compression; descriptive statistics
+A tool to deal with data from an end of line tester in an electronics (PCBA) production environment. Imports large amount of original csv data files, stiches them together, selects relevant features, handles missing and incomplete data and tests, adds features and creates different plots with insights into tests results. Compresses data to store whole dataset in memory.
+- Methods: Data import, analysis, cleaning, quality and compression; descriptive statistics
 - Tools: Python, Pandas, numpy, matplotlib
 
 ### 4. Case Studies
-#### 4.1 [Marketing - Customer Segmentation](https://github.com/JSchoeck/portfolio/blob/master/Demos/Case%20Study%20Marketing)
-Performed customer segmentation on a credit card customer data set. Clustered customers to allow for targeted marketing and business optimizations. Showed effectiveness of employing principal component analysis, finding ideal number of clusters and using K-Means clustering.
+#### 4.1 [Marketing - Customer Segmentation](https://github.com/JSchoeck/portfolio/blob/master/Demos/Case%20Study%20Marketing/Case%20Study%20Marketing.ipynb)
+Performed customer segmentation on a credit card data set. Clustered customers to allow for targeted marketing and business optimizations. Showed effectiveness of employing principal component analysis, finding ideal number of clusters and using K-Means clustering.
 - Methods: Data analysis, imputation and scaling; K-Means clustering; Autoencoder for dimensionality reduction; PCA for dimensionality visualization
 - Tools: Python, Pandas, Numpy, matplotlib, Seaborn, Scikit-learn, Keras, Tensorflow
 
