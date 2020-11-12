@@ -95,7 +95,7 @@ Extended the model by an additional dimension as a proof of concept that any num
 - Tools: Python, Pandas, Numpy, Keras, matplotlib
 
 #### 5.2 [Disc Sports Twitter Sentiment Tracker](https://github.com/JSchoeck/portfolio/tree/master/DiscSports/Disc_Sports_Twitter_Sentiment_Tracker)
-Tracking of all tweets containing the word 'frisbee' on Twitter and running a sentiment analysis on it. The results are visualized and saved in a csv file. Actually running 'in production' and updating the dataset and plots daily. The [latest plots](https://www.dropbox.com/sh/dmhv503ni3q0sb0/AABsV2t47-KIwS74RsZ3HRLOa?dl=0) are available online, including an [interactive plot](https://www.dropbox.com/s/m0scddrx0aaxk41/Daily_number_of_%27frisbee%27_tweets_per_sentiment_line_latest.html?dl=0) using Bokeh (not viewable in Dropbox).
+Tracking of all tweets containing the word 'frisbee' on Twitter and running a sentiment analysis on it. The results are visualized and saved in a csv file. Actually running 'in production' and updating the dataset and plots daily. The [latest plots](https://www.dropbox.com/sh/dmhv503ni3q0sb0/AABsV2t47-KIwS74RsZ3HRLOa?dl=1) are available online, including an [interactive plot](https://www.dropbox.com/s/m0scddrx0aaxk41/Daily_number_of_%27frisbee%27_tweets_per_sentiment_line_latest.html?dl=1) using Bokeh (not viewable in Dropbox).
 - Methods: Sentiment analysis; Deploying model on work station
 - Tools: Python, Pandas, Twython, NLTK, VADER, matplotlib
 
