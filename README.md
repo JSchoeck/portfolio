@@ -13,7 +13,7 @@ If you like my work or have any questions, please contact me at johannes(at)scho
 ## Content Overview
 1. [Personal Skills and Domain Knowledge](#1-personal-skills)
 2. [Data Science Methods and Tools](#2-data-science-skills)
-3. [Work Data Projects](#3-work-data-projects)
+3. [Production / Process Data Projects](#3-work-data-projects)
 4. [Case Studies](#4-case-studies)
 5. [Private Data Projects and Demos](#5-private-data-projects-and-demos)
 6. [Kaggle Competitions](#6-competitions)
@@ -58,20 +58,20 @@ If you like my work or have any questions, please contact me at johannes(at)scho
 - Google Colab and AutoML
 - Jupyter notebook / Spyder IDE / Visual Studio
 
-### 3. Work Data Projects
-#### 3.1 [CVD_prediction](https://github.com/JSchoeck/portfolio/blob/master/CVD_prediction/CVD_model_thickness.ipynb)
+### 3. Production / Process Data Projects
+#### 3.1 [CVD Process Prediction](https://github.com/JSchoeck/portfolio/blob/master/CVD_prediction/CVD_model_thickness.ipynb)
 Developed a model to predict oxide layer thickness in a TEOS CVD process as a virtual measurement experiment. Training data based on a design of experiment (DOE) concept was used and led to a prediction quality of 98%. Incorporating a physics-based model to include temperature variation, without T being available from the training data, enhanced the model significantly. The ANN put out 49 measurement points on the wafer, allowing to precisely simulate real CVD tools.
 Creating a simple GUI with Tkinter demonstrated the ability to roll out the prediction tool to end-users.
 - Methods: Regression (ANN), Virtual Measurement, GUI
 - Tools: Python, Keras/Tensorflow, Pandas, numpy, matplotlib, Tkinter
 
-#### 3.2 [EOL_BMG](https://github.com/JSchoeck/portfolio/tree/master/EOL_BMG)
+#### 3.2 [Automotive Pump End of Line Tester Failure Analysis and Prediction](https://github.com/JSchoeck/portfolio/tree/master/EOL_BMG)
 Analysis and classification of serial production end-of-line tester data using a kNN-classifier and an ANN on the error code as a OneHotEncoded multi-class dependant variable. The dataset consists of over 1 M observations with 30 selected features. Model quality was quantified using appropriate accuracy measurements for each model.
 The results yield insight into reasons of failure and help increase the yield of the production line.
 - Methods: Classification (kNN, ANN)
 - Tools: Python, Pandas, numpy, matplotlib, scikit-learn, Keras/Tensorflow
 
-#### 3.3 [SPEA_csv_import](https://github.com/JSchoeck/portfolio/tree/master/SPEA_csv_import)
+#### 3.3 [PCBA Manufacturing Line Failure Analysis](https://github.com/JSchoeck/portfolio/tree/master/SPEA_csv_import)
 A tool to deal with data from an end of line tester in an electronics (PCBA) production environment. Imports large amount of original csv data files, stiches them together, selects relevant features, handles missing and incomplete data and tests, adds features and creates different plots with insights into tests results. Compresses data to store whole dataset in memory.
 - Methods: Data import, analysis, cleaning, quality and compression; descriptive statistics
 - Tools: Python, Pandas, numpy, matplotlib
@@ -88,7 +88,7 @@ Analyzed a realistic HR data set regarding employee attrition. Asked and tried t
 - Tools: Python, Pandas, Numpy, matplotlib, Seaborn, Scikit-learn, Keras
 
 ### 5. Private Data Projects and Demos
-#### 5.1 [GAN_1D_Keras](https://github.com/JSchoeck/portfolio/blob/master/Demos/GAN_1D_2D/GAN_1D_Keras.ipynb) and [GAN_2D_Keras](https://github.com/JSchoeck/portfolio/blob/master/Demos/GAN_1D_2D/GAN_2D_Keras.ipynb)
+#### 5.1 [1D-GAN](https://github.com/JSchoeck/portfolio/blob/master/Demos/GAN_1D_2D/GAN_1D_Keras.ipynb) and [2D-GAN using Keras](https://github.com/JSchoeck/portfolio/blob/master/Demos/GAN_1D_2D/GAN_2D_Keras.ipynb)
 Created a generative adversial network that learns to output increasingly indistinguishable data points from an original mathematical function. Training of the generator model happens via classification by a discriminator model, which adjusts the generator model's weights in a combined logical GAN model. Progress of the training can be watched by plots of both real and generated data points, as well as the classification accuracy of the discriminator.
 Extended the model by an additional dimension as a proof of concept that any number of feature dimensionalities can be generated. Work is shown in [GAN_2D_Keras](https://github.com/JSchoeck/portfolio/blob/master/Demos/GAN_1D_2D/GAN_2D_Keras.ipynb)
 - Methods: multidimensional GANs
@@ -106,14 +106,8 @@ A small web-scraping project using BeautifulSoup to get the number of Ultimate F
 - Tools: Python, Pandas, BeautifulSoup, Tableau
 
 ### 6. Competitions
-#### 6.1 [Tweet Sentiment Extraction](https://github.com/JSchoeck/portfolio/tree/master/Kaggle/Tweet%20Sentiment%20Extraction)
+#### 6.1 [Tweet Sentiment Extraction and Word Prediction](https://github.com/JSchoeck/portfolio/tree/master/Kaggle/Tweet%20Sentiment%20Extraction)
 Text analysis challenge to find the parts of a tweet that have been associated with positive, neutral or negative sentiments. Used bag of word method to feed into kNN classification algorithm. Also played with the data to predict which sentiment would be assigned based on word count of the tweet or of the selected part of it and compared it to a random selection model. As this was my first serious attempt at NLP, my goal was to build a functional ML framework, not to find an optimized model.
 Kaggle submission page: https://www.kaggle.com/jschoeck/competitions
 - Methods: Sentiment analysis; Bag of words; Classification (kNN)
 - Tools: Python, Pandas, NLTK, scikit-learn
-
-#### 6.2 [Titanic](https://github.com/JSchoeck/portfolio/tree/master/Kaggle/Titanic)
-Classic data analysis / machine learning entry classification data set to predict survivors of the Titanic accident. Analyzed the data, performed feature selection and engineering. Applied different classification algorithms and compared their performance with hyperparameter optimization.
-Kaggle submission page: https://www.kaggle.com/jschoeck/competitions
-- Methods: Classification (RandomForrest); k-fold-CV; GridSearchCV
-- Tools: Python, Pandas, numpy, matplotlib, scikit-learn
