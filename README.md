@@ -1,6 +1,6 @@
 # Johannes Schöck
 # Data Science and Machine Learning Portfolio
-![alt text](https://github.com/JSchoeck/portfolio/blob/master/cover.png "Portfolio JSchoeck")
+![Portfolio JSchoeck](https://github.com/JSchoeck/portfolio/blob/master/cover.png "Portfolio JSchoeck")
 
 ## Motivation
 After spending a few years working in different fields, I found the type of work where my motivation and passion always was at its max: *working with data*.
