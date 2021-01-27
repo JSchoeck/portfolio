@@ -1,5 +1,5 @@
 .ipynb_checkpoints/
 .pylint.d/
 secrets.txt
-/../Dataset/
-/../Test/
+**/Dataset/
+**/Test/
